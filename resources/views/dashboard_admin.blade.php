@@ -61,15 +61,15 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-10">
-            <div class="bg-[#ffd6f4] p-6 rounded-[2rem] shadow-sm text-black border-4 border-transparent hover:border-white transition duration-300 text-center">
+            <div class="bg-[#ffd6f4] p-6 rounded-[2rem] shadow-sm text-black transform hover:-translate-y-1 transition duration-300 text-center">
                 <p class="font-bold text-sm uppercase opacity-70 tracking-wider">Total Fisik di Gudang</p>
                 <h3 class="font-display text-5xl mt-2">{{ $totalItems }} <span class="text-2xl">Unit</span></h3>
             </div>
-            <div class="bg-[#838fff] p-6 rounded-[2rem] shadow-sm text-white border-4 border-transparent hover:border-white transition duration-300 text-center">
+            <div class="bg-[#838fff] p-6 rounded-[2rem] shadow-sm text-white transform hover:-translate-y-1 transition duration-300 text-center">
                 <p class="font-bold text-sm uppercase opacity-80 tracking-wider">Peminjaman Aktif</p>
                 <h3 class="font-display text-5xl mt-2">{{ $activeBorrowings }} <span class="text-2xl">Transaksi</span></h3>
             </div>
-            <div class="bg-[#635bff] p-6 rounded-[2rem] shadow-sm text-white border-4 border-transparent hover:border-white transition duration-300 text-center">
+            <div class="bg-[#635bff] p-6 rounded-[2rem] shadow-sm text-white transform hover:-translate-y-1 transition duration-300 text-center">
                 <p class="font-bold text-sm uppercase opacity-80 tracking-wider">Menunggu Persetujuan</p>
                 <h3 class="font-display text-5xl mt-2 text-[#ffd6f4]">{{ $pendingRequests }} <span class="text-2xl text-white opacity-70">Antrean</span></h3>
             </div>
