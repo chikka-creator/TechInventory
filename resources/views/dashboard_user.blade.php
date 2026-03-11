@@ -35,7 +35,7 @@
         @if($dueBorrowings->count() > 0)
         <div class="bg-red-400 text-white p-6 mb-10 rounded-[2rem] shadow-lg animate-pulse border-4 border-red-500">
             <h3 class="font-display text-2xl mb-2 flex items-center gap-2">
-                ⚠️ PERINGATAN JATUH TEMPO!
+                PERINGATAN JATUH TEMPO!
             </h3>
             <p class="text-sm font-bold mb-2 opacity-90">Segera kembalikan alat berikut agar tidak terkena sanksi poin:</p>
             <ul class="list-disc ml-8 text-sm font-bold bg-black/10 inline-block p-4 rounded-2xl">
